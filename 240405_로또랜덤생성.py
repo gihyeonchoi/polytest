@@ -8,7 +8,7 @@ for i in range(5):
         if inputlotto > 10:
             print("1~10까지 숫자 중 하나를 골라주세요")
             continue
-        if inputlotto in userlotto and inpuulotto>10:
+        if inputlotto in userlotto:
             print("이미 선택한 숫자입니다. 다른 숫자를 선택해주세요.")
         else:
             userlotto.append(inputlotto)
